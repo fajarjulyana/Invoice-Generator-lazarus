@@ -7,9 +7,8 @@
       <Unit>
         <Filename Value="InvoiceGenerator.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="10"/>
+        <TopLine Value="9"/>
         <CursorPos Y="25"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -18,6 +17,7 @@
         <Filename Value="src/mainform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormUtama"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainForm"/>
         <TopLine Value="23"/>
@@ -30,15 +30,19 @@
         <Filename Value="src/datasource.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DataModule1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DataSource"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="36"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
+    <JumpHistory HistoryIndex="5">
       <Position>
         <Filename Value="src/mainform.pas"/>
       </Position>
@@ -56,6 +60,9 @@
       <Position>
         <Filename Value="InvoiceGenerator.lpr"/>
         <Caret Line="25" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="src/datasource.pas"/>
       </Position>
     </JumpHistory>
     <RunParams>

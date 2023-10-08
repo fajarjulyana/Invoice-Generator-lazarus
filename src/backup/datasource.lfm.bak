@@ -1,0 +1,30 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 247
+  VerticalOffset = 176
+  Width = 150
+  object SumberData: TDataSource
+    DataSet = SQLQuery1
+    Left = 36
+    Top = 40
+  end
+  object SQLConnector1: TSQLConnector
+    Connected = False
+    LoginPrompt = False
+    AfterConnect = SQLConnector1AfterConnect
+    DatabaseName = 'db.mdb'
+    KeepConnection = False
+    ConnectorType = 'ODBC'
+    Left = 103
+    Top = 24
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = SQLConnector1
+    Params = <>
+    Macros = <>
+    Left = 98
+    Top = 100
+  end
+end
